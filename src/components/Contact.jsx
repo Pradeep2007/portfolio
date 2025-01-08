@@ -98,7 +98,7 @@ const Contact = () => {
                     data-aos-duration="1000"
                     data-aos-once="false"
                     ref={formRef}
-                    onSubmit={handelSubmit}
+                    onSubmit={handleSubmit}
                     className="flex bg-stone-200 flex-col p-2 rounded-lg md:w-1/2 md:p-4 lg:px-5 lg:py-7 lg:m-4 lg:w-3/5"
                     >
                         <div
