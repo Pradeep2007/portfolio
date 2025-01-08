@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact"
 import Footer from "./components/Footer";
 import ScrollToTopButton from "./components/ScrollToTop";
+import { ToastContainer } from "react-toastify";
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Contact/>
       <Footer/>
       <ScrollToTopButton/>
+      <ToastContainer />
     </div>
   );
 }

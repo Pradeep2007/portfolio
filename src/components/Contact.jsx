@@ -5,29 +5,29 @@ import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import SocialHandels from "./socialHandels";
 import ContactData from "../data/contact";
 
-const Contact = ()=>{
-    const formRef = useRef();
-    const handelSubmit = (e)=>{
-        e.preventDefault();
-        emailjs
+const Contact = () => {
+        const formRef = useRef();
+        const handleSubmit = (e) => {
+          e.preventDefault();
+          emailjs
           .sendForm(
             "service_oo7acnn",
             "template_y2pmtyd",
             formRef.current,
             "PxW_jxMWW5STfUjTJ"
           )
-          .then(
-            ()=>{
+            .then(
+              () => {
                 toast.success("Message sent successfully");
                 e.target.reset();
-            },
-            (error) => {
+              },
+              (error) => {
                 console.log(error.text);
                 toast.error("Unable to send message!");
-            }
-          );
-    };
-
+              }
+            );
+        };
+      
     return(
         <section className="text-gray-600 body-font">
             <div className="px-3 py-5 mx-auto text-center md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
