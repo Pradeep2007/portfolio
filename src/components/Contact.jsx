@@ -31,8 +31,8 @@ const Contact = ()=>{
     return(
         <section className="text-gray-600 body-font">
             <div className="px-3 py-5 mx-auto text-center md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
-                <div id="contact" className="mx-auto w-full flex flex-col mb-4">
-                    <h1 className="text-gray-900 text-3xl sm:text-4xl font-medium mb-2">Contact Me</h1>
+                <div id="contact" className="text-center w-full flex flex-col mb-4">
+                    <h1 className="text-black title-font text-3xl sm:text-4xl font-medium mb-2">Contact Me</h1>
                     <p 
                     data-aos="zoom in"
                     data-aos-duration="1000"
