@@ -145,7 +145,7 @@ const Navbar = ()=>{
                 to="home"
                 className="flex justify-center items-center w-fit"
                 >
-                <h1 className="text-3xl font-libre">Pradeep</h1>
+                <h1 className=" text-2xl md:text-3xl font-libre">Pradeep</h1>
                 </Link>
                 <nav
                 data-aos="zoom-in"
