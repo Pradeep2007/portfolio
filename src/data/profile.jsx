@@ -1,9 +1,7 @@
 import pradeepImg from "../assets/images/pradeep.jpg";
-import logoImg from "../assets/images/logo.png";
 
 const ProfileData = {
     img: pradeepImg,
-    logo: logoImg,
     name:"Pradeep Singh Yadav",
     professions:["Web Developer","Competitive Programmer","Enthusiastic Learner"],
     info: [
