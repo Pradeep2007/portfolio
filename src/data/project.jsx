@@ -31,8 +31,8 @@ const ProjectData =[
         image:port,
         icon:[SiHtml5,BiLogoCss3,BiLogoTailwindCss,BiLogoReact],
         description:"A personal portfolio website showcasing projects, skills, experience,and contact information.",
-        github:"https://github.com/Pradeep2007/weather-app",
-        demo:"https://weather-app-theta-indol-37.vercel.app/"
+        github:"https://github.com/Pradeep2007/portfolio",
+        demo:"https://portfolio-bay-one-72.vercel.app/"
     },
 ]
 export default ProjectData;
